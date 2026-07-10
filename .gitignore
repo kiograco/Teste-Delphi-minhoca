@@ -1,0 +1,35 @@
+# Binários e artefatos de compilação do Delphi
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.dcu
+*.drc
+*.map
+*.dres
+*.rsm
+*.tds
+*.obj
+*.o
+
+# Arquivos locais/gerados pela IDE (específicos da máquina, não fazem sentido versionar)
+*.local
+*.identcache
+*.projdata
+*.tvsconfig
+*.dsk
+*.stat
+*.dro
+
+# Histórico e recuperação automática da IDE
+__history/
+__recovery/
+*.~*
+
+# Pastas de saída de build (caso o projeto passe a usar os diretórios padrão)
+Win32/
+Win64/
+
+# Configuração/estado salvo pelo próprio aplicativo em tempo de execução
+TesteDelphi.ini
